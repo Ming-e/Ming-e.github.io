@@ -1,18 +1,18 @@
 <!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>（转）NPOI的基本使用 | 幻想乡の红魔馆</title><meta name="author" content="WuWu"><meta name="copyright" content="WuWu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="前言  在NPOI初识中简了解了下NPOI的简介和优势，接下来看一下如果下载使用。  新建控制台应用程序   利用Nuget获取NPOI  这里引用的2.4.1最稳定版本：  NPOI引用添加完成后，可以看到主要添加了四个dll的引用  在简介中，也介绍了四种dll的用途。  通过这几个dll，可以看出，NPOI的用途还是挺多的。   简单使用增删改查  接下来实现一下简单的对excel的增、删、">
 <meta property="og:type" content="article">
 <meta property="og:title" content="（转）NPOI的基本使用">
-<meta property="og:url" content="http://ming-e.space.com/post/28936e0a/index.html">
+<meta property="og:url" content="http://ming-e.space/post/28936e0a/index.html">
 <meta property="og:site_name" content="幻想乡の红魔馆">
 <meta property="og:description" content="前言  在NPOI初识中简了解了下NPOI的简介和优势，接下来看一下如果下载使用。  新建控制台应用程序   利用Nuget获取NPOI  这里引用的2.4.1最稳定版本：  NPOI引用添加完成后，可以看到主要添加了四个dll的引用  在简介中，也介绍了四种dll的用途。  通过这几个dll，可以看出，NPOI的用途还是挺多的。   简单使用增删改查  接下来实现一下简单的对excel的增、删、">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://ming-e.space.com/post/28936e0a/cover.webp">
+<meta property="og:image" content="http://ming-e.space/post/28936e0a/cover.webp">
 <meta property="article:published_time" content="2022-11-04T04:33:00.000Z">
 <meta property="article:modified_time" content="2023-06-19T04:45:01.281Z">
 <meta property="article:author" content="WuWu">
 <meta property="article:tag" content="NPOI">
 <meta property="article:tag" content="Excel">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://ming-e.space.com/post/28936e0a/cover.webp"><link rel="shortcut icon" href="/images/1.webp"><link rel="canonical" href="http://ming-e.space.com/post/28936e0a/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<meta name="twitter:image" content="http://ming-e.space/post/28936e0a/cover.webp"><link rel="shortcut icon" href="/images/1.webp"><link rel="canonical" href="http://ming-e.space/post/28936e0a/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: {"appId":"GHR4COM8XK","apiKey":"4036f5b42a1c36721e7eef272cdb1746","indexName":"blog","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容：${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
   localSearch: undefined,

@@ -2671,6 +2671,7 @@ h1.page-title + .tag-cloud-list {
   padding-bottom: 0;
 }
 #aside-content .aside-list > .aside-list-item .thumbnail {
+  border-radius: 10px;
   overflow: hidden;
   width: 4.2em;
   height: 4.2em;
@@ -3833,6 +3834,7 @@ h1.page-title + .tag-cloud-list {
   margin-top: 40px;
   width: 100%;
   background: #000;
+  border-radius: 10px;
 }
 .layout > .recent-posts .pagination > * {
   display: inline-block;
@@ -4142,6 +4144,7 @@ h1.page-title + .tag-cloud-list {
   font-size: 1.43em;
 }
 .relatedPosts > .relatedPosts-list > div {
+  border-radius: 10px;
   position: relative;
   display: inline-block;
   overflow: hidden;

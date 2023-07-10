@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>白鹭引擎竟然倒闭了 w(ﾟДﾟ)w</title>
+      <link href="/post/cc0a5cb2/"/>
+      <url>/post/cc0a5cb2/</url>
+      
+        <content type="html"><![CDATA[<p>之前电脑寄了，好在后面慢慢都恢复了。这几天又想起了我做了一半的<a href="https://www.bilibili.com/video/BV1744y1h7xN">SD快打复刻</a>，想打开工程打算继续做后面几个boss，发现没装龙骨的编辑器，遂打开浏览器准备进龙骨官网下载安装。</p><br><p>结果浏览器转了半天出来个404，我还以为网络问题把加速器打开，确认Github、Google、YouTube都能访问了以后我又进了一次官网，结果还是404。</p><br><p>这下我坐不住了，这是官网换地址了？我又打开了百度，并在贴吧知乎微博反复横跳，天眼上显示白鹭科技最后的信息还停留在2021年，我又往后看了几条，跳转到知乎的一个白鹭引擎的问题上去了，然后在这个问题的推荐列表里我看到一个<a href="https://www.zhihu.com/question/522093368/answer/2801488584">“白鹭Egret官方是不是不行了？”</a>的问题，进去看了里面的回答我才知道，白鹭科技2022年7月就破产了，2023年服务器就全停了。</p><br><p><img src= "/images/lazyload.webp" data-lazy-src="/post/cc0a5cb2/1.webp" alt="白鹭科技"></p><br><p>这图是他们老板发的内部邮件，里面说的细节不知道真假，但公司总归是倒闭了。</p><br><hr><br><p>站在一个打工人的角度，我确实没有惋惜同情的必要，毕竟全国每天倒闭的公司都海了去了，普通老百姓过好自己日子就得了。但是作为一个闲着没事就折腾折腾游戏，研究研究自己喜欢的游戏的实现方法的码农来说，我还是挺可惜白鹭的。</p><br><p>白鹭引擎Erget我一天都没有用过，不过他们公司的龙骨动画工具我是实打实的用它做了一套东西出来，真的很好用，而且很多贴心的小功能比如洋葱皮，比如辅助线都比spine人性化多了，他的运行库也非常简单易用，最关键的是他还免费，总之做2d游戏用龙骨就是最佳选择，如果是独立游戏那更加是不二选择。</p><br><p>这么好的工具，白鹭不做了以后可能也不会有了，实在是可惜了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 龙骨 </tag>
+            
+            <tag> DragonBones </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>只有硬盘受伤的世界完成了T_T</title>
       <link href="/post/e696fffd/"/>
       <url>/post/e696fffd/</url>
@@ -103,9 +130,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> Excel </tag>
+            
+            <tag> Unity </tag>
             
             <tag> 游戏数据管理 </tag>
             
@@ -132,9 +159,9 @@
       
         <tags>
             
-            <tag> Excel </tag>
-            
             <tag> NPOI </tag>
+            
+            <tag> Excel </tag>
             
         </tags>
       
@@ -159,9 +186,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> 计算机网络 </tag>
+            
+            <tag> Unity </tag>
             
             <tag> TCP通信 </tag>
             
@@ -188,9 +215,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> 计算机网络 </tag>
+            
+            <tag> Unity </tag>
             
             <tag> TCP通信 </tag>
             
@@ -217,9 +244,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> 计算机网络 </tag>
+            
+            <tag> Unity </tag>
             
             <tag> TCP通信 </tag>
             
@@ -246,9 +273,9 @@
       
         <tags>
             
-            <tag> Unity </tag>
-            
             <tag> 计算机网络 </tag>
+            
+            <tag> Unity </tag>
             
             <tag> TCP通信 </tag>
             
